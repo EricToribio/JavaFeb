@@ -1,6 +1,6 @@
 public class AlfredTest {
     public static void main(String[] args){
-           AlfredQuote alfredBot = new AlfredQuote();
+        AlfredQuote alfredBot = new AlfredQuote();
         
         // Make some test greetings, providing any necessary data
         String testGreeting = alfredBot.basicGreeting();
