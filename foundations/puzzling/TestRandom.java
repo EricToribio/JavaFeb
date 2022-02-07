@@ -1,4 +1,4 @@
-
+import java.util.Arrays;
 
 public class TestRandom {
     public static void main(String[] args){
@@ -9,5 +9,20 @@ public class TestRandom {
             System.out.println(randomDie[i]);
             i++;
         }
+
+        char letterRandom = puzzle.getRandomLetter();
+        System.out.println(letterRandom);
+
+        String randomPassword = puzzle.password();
+        System.out.println(randomPassword);
+        
+        System.out.println("Enter a number");
+        String num = System.console().readLine();
+        int num2 = Integer.parseInt(num);
+        System.out.println(Arrays.toString(puzzle.passwordArr(num2)));
+
+        
+        
     }
+    
 }
