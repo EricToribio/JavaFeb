@@ -12,6 +12,7 @@ public class Order {
     // No arguments, sets name to "Guest", initializes items as an empty list.
     public Order(){
         this.name = "Guest";
+        this.ready = false;
         this.items = new ArrayList<Item>();
     }
     // OVERLOADED CONSTRUCTOR
@@ -20,6 +21,7 @@ public class Order {
     
     public Order(String name){
         this.name = name;
+        this.ready = false;
         this.items = new ArrayList<Item>();
     }
     
